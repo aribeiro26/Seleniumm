@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="CucumberJava" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="br.sp.alex.tests.TestRunner" time="0.765">
+    <testsuite name="Cotacao de veiculos" time="0.765">
+      <testcase name="Preencher dados do veiculo" classname="Cotacao de veiculos" time="0.765">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'Acesso a pagina inicial' and 14 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Acesso a pagina inicial")
+public void acessoAPaginaInicial() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Seleciono a Marca do veiculo")
+public void selecionoAMarcaDoVeiculo() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Potencia de {int}")
+public void potenciaDe(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Perfomace em {int}")
+public void perfomaceEm(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Data da fabricacao {int}\\/{int}\\/{int}")
+public void dataDaFabricacao(Integer int1, Integer int2, Integer int3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Capacidade do carro para {int}")
+public void capacidadeDoCarroPara(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("lado da direcao direta como No")
+public void ladoDaDirecaoDiretaComoNo() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Numero de assentos como {int}")
+public void numeroDeAssentosComo(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("o tipo de combustive � GAS")
+public void oTipoDeCombustiveGAS() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("capacidade de carga {int}")
+public void capacidadeDeCarga(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Peso total {int}")
+public void pesoTotal(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("preco {double}")
+public void preco(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("License {int}")
+public void license(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Quando termino de Preenche o campo com {int} milhas")
+public void quandoTerminoDePreencheOCampoComMilhas(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Clico em Next")
+public void clicoEmNext() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

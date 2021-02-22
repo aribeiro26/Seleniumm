@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="cucumber.api.java.pt.Dado"/>
+    <fullyQualifiedTypeName name="cucumber.api.java.pt.Quando"/>
+    <fullyQualifiedTypeName name="cucumber.api.java.pt.Dados"/>
+    <fullyQualifiedTypeName name="io.cucumber.junit.CucumberOptions"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="io.cucumber.junit.CucumberOptions.SnippetType"/>
+    <fullyQualifiedTypeName name="br.alex.core.DriverManager"/>
+    <fullyQualifiedTypeName name="br.sp.alex.core.ElementsPage"/>
+    <fullyQualifiedTypeName name="br.sp.alex.core.DriverManager"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.Given"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.When"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.Then"/>
+</qualifiedTypeNameHistroy>

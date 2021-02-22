@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="CucumberJava" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="br.sp.alex.tests.TestRunner" time="19.26">
+    <testsuite name="Cotacao de veiculos" time="19.26">
+      <testcase name="Preencher dados do veiculo" classname="Cotacao de veiculos" time="19.26">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'Preencho os campos de Resposta de Email "alexetec.ribeiro@gmail.com"' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("Preencho os campos de Resposta de Email {string}")
+public void preenchoOsCamposDeRespostaDeEmail(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Telefone {string}")
+public void telefone(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("usuario {string}")
+public void usuario(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Senha {string} e Confirma a senha")
+public void senhaEConfirmaASenha(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Clica em {string}")
+public void clicaEm(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

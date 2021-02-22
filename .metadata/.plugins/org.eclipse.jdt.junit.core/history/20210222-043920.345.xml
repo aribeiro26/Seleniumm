@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="CucumberJava" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="br.sp.alex.tests.TestRunner" time="17.433">
+    <testsuite name="Cotacao de veiculos" time="17.433">
+      <testcase name="Preencher dados do veiculo" classname="Cotacao de veiculos" time="17.433">
+        <error>org.openqa.selenium.NoSuchElementException: Cannot locate option with text: 8
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'WINDEV2101EVAL', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown&#13;
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)&#13;
+	at br.sp.alex.core.ElementsPage.selecionarCombo(ElementsPage.java:58)&#13;
+	at br.sp.alex.tests.CotacaoVeiculo.somaDoSeguro(CotacaoVeiculo.java:163)&#13;
+	at ✽.Soma do seguro "3000000"(file:///C:/Users/User/eclipse-workspace/CucumberJava/src/test/resources/Feature/CotacaoVeiculo.feature:31)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

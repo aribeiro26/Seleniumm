@@ -1,0 +1,146 @@
+package br.sp.alex.tests;
+
+import io.cucumber.java.After;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+import org.openqa.selenium.By;
+
+import br.sp.alex.core.DriverManager;
+import br.sp.alex.core.ElementsPage;
+
+
+public class CotacaoVeiculo extends ElementsPage {
+	@After
+	public void Finaliza() {
+		DriverManager.killDriver();
+	}
+	
+	@Given("Acesso a pagina inicial")
+	public void acesso_a_pagina_inicial() throws Throwable {
+		DriverManager.getDriver().get("http://sampleapp.tricentis.com/101/app.php"); 
+	}
+
+	@When("Seleciono a Marca do veiculo")
+	public void seleciono_a_marca_do_veiculo() {
+		clicarBotao(By.xpath("//option[@value='BMW']"));
+		clicarBotao(By.xpath("//option[@value='Scooter']"));
+	}
+
+	@When("Potencia de {string}")
+	public void potenciaDe(String string) {
+		escrever(By.id("cylindercapacity"), string);
+	   
+	}
+
+	@When("Perfomace em {string}")
+	public void perfomaceEm(String string) {
+		escrever(By.id("engineperformance"), string);
+	    
+	}
+
+	@When("Data da fabricacao {string}")
+	public void dataDaFabricacao(String string) {
+		escrever(By.id("dateofmanufacture"), string);
+	   
+	}
+
+	@When("Capacidade do carro para")
+	public void capacidadeDoCarroPara() {
+		selecionarCombo("numberofseats", "8");
+	   
+	}
+
+	@When("lado da direcao direta como No")
+	public void lado_da_direcao_direta_como_no() {
+		clicarBotao(By.xpath("//label[text()='Yes']"));
+	}
+
+	@When("Numero de assentos como {string}")
+	public void numero_de_assentos_como(String string) {
+		selecionarCombo("numberofseatsmotorcycle", string);
+	}
+
+	@When("o tipo de combustive {string}")
+	public void oTipoDeCombustive(String string) {
+		selecionarCombo("fuel", string);
+	}
+
+	@When("capacidade de carga {string}")
+	public void capacidadeDeCarga(String string) {
+		escrever(By.id("payload"), string);
+	}
+
+	@When("Peso total {string}")
+	public void pesoTotal(String string) {
+		escrever(By.id("totalweight"), string);
+	}
+
+	@When("preco {string}")
+	public void preco(String string) {
+		escrever(By.id("listprice"), string);
+	}
+
+	@When("License {string}")
+	public void license(String string) {
+		escrever(By.id("licenseplatenumber"), string);
+	}
+
+	@When("Quando termino de Preenche o campo com {string} milhas")
+	public void quandoTerminoDePreencheOCampoComMilhas(String string) {
+		escrever(By.id("annualmileage"), string);
+	}
+
+	@Then("Clico em Next e Avanco para Proxima Pagina")
+	public void clicoEmNextEAvancoParaProximaPagina() {
+		clicarBotao(By.xpath("//button[text()='Next »']"));
+	}
+	
+	@When("Preencho o campo Nome {string}")
+	public void preenchoOCampoNome(String string) {
+		escrever(By.id("firstname"), string);
+	}
+	@When("Sobrenome {string}")
+	public void sobrenome(String string) {
+		escrever(By.id("lastname"), string);
+	}
+	@When("data de Aniversario {string}")
+	public void dataDeAniversario(String string) {
+		escrever(By.id("birthdate"), string);
+	}
+	@When("Sexo Masculino")
+	public void sexoMasculino() {
+		clicarBotao(By.xpath("//label[text()='Male']"));
+	}
+	@When("Endereco {string}")
+	public void endereco(String string) {
+		escrever(By.id("streetaddress"), string);
+	}
+	@When("Pais {string}")
+	public void pais(String string) {
+		selecionarCombo("country", string);
+	}
+	@When("CEP {string}")
+	public void cep(String string) {
+		escrever(By.id("zipcode"), string);
+	}
+	@When("cidade {string}")
+	public void cidade(String string) {
+		escrever(By.id("city"), string);
+	}
+	@When("preencho a  profissao {string} e seleciono os Hobbies")
+	public void preenchoAProfissaoESelecionoOsHobbies(String string) {
+		selecionarCombo("fuel", string);
+		selecionarCombo("occupation", string);
+		clicarBotao(By.xpath("//label[text()=' Speeding']"));
+		clicarBotao(By.xpath("//label[text()=' Cliff Diving']"));
+		clicarBotao("nextenterproductdata");
+		
+	  
+	}
+	
+	
+
+}
+

@@ -1,0 +1,19 @@
+
+Feature: Cotacao de veiculos
+
+Scenario: Preencher dados do veiculo
+Given Detalhes sobre o veiculo como Marca e Modelo
+And Potencia de 100
+And Perfomace em 50
+And Data da fabricacao 21/02/2020
+And Capacidade do carro para 5
+And lado da direcao direta como No
+But Numero de assentos como 3
+And o tipo de combustive é GAS
+And capacidade de carga 1000
+And  Peso total 1000
+And preco 100,00
+And License 12345567
+When Quando termino de Preenche o campo com 50 milhas
+Then Clico em Next
+

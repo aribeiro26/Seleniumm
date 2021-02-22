@@ -1,0 +1,25 @@
+package br.alex.core;
+
+public class Login {
+	
+
+@Given("teste")
+public void teste() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("Teste")
+public void teste() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("testei")
+public void testei() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+}

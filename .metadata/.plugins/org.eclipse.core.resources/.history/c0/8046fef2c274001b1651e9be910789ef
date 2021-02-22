@@ -1,0 +1,90 @@
+package br.sp.alex.tests;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+import org.openqa.selenium.By;
+
+import br.sp.alex.core.DriverManager;
+import br.sp.alex.core.ElementsPage;
+
+public class CotacaoVeiculo extends ElementsPage {
+	@Given("Acesso a pagina inicial")
+	public void acesso_a_pagina_inicial() {
+		DriverManager.getDriver().get("http://srbarriga.herokuapp.com");
+		clicarBotao(By.xpath("//option[@value='BMW']"));
+	 
+	}
+
+	@When("Seleciono a Marca do veiculo")
+	public void seleciono_a_marca_do_veiculo() {
+	   
+	}
+
+	@When("Potencia de {int}")
+	public void potencia_de(Integer int1) {
+	   
+	}
+
+	@When("Perfomace em {int}")
+	public void perfomace_em(Integer int1) {
+	    
+	}
+
+	@When("Data da fabricacao {int}\\/{int}\\/{int}")
+	public void data_da_fabricacao(Integer int1, Integer int2, Integer int3) {
+	   
+	}
+
+	@When("Capacidade do carro para {int}")
+	public void capacidade_do_carro_para(Integer int1) {
+	   
+	}
+
+	@When("lado da direcao direta como No")
+	public void lado_da_direcao_direta_como_no() {
+	   
+	}
+
+	@When("Numero de assentos como {int}")
+	public void numero_de_assentos_como(Integer int1) {
+	   
+	}
+
+	@When("o tipo de combustive ? GAS")
+	public void o_tipo_de_combustive_gas() {
+	  
+	}
+
+	@When("capacidade de carga {int}")
+	public void capacidade_de_carga(Integer int1) {
+	    
+	}
+
+	@When("Peso total {int}")
+	public void peso_total(Integer int1) {
+	    
+	}
+
+	@When("preco {double}")
+	public void preco(Double double1) {
+	    
+	}
+
+	@When("License {int}")
+	public void license(Integer int1) {
+	   
+	}
+
+	@When("Quando termino de Preenche o campo com {int} milhas")
+	public void quando_termino_de_preenche_o_campo_com_milhas(Integer int1) {
+	   
+	}
+
+	@Then("Clico em Next")
+	public void clico_em_next() {
+	    
+	}
+
+}

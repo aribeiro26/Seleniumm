@@ -1,0 +1,98 @@
+package br.sp.alex.tests;
+
+import br.sp.alex.core.DriverManager;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+
+public class CotacaoVeiculo {
+	
+	
+	@Given("Detalhes sobre o veiculo como Marca e Modelo")
+	public void detalhes_sobre_o_veiculo_como_marca_e_modelo() {
+	   DriverManager.getDriver().get("http://sampleapp.tricentis.com/101/app.php");
+	   
+	
+	}
+
+	@Given("Potencia de {int}")
+	public void potencia_de(Integer int1) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Given("Perfomace em {int}")
+	public void perfomace_em(Integer int1) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Given("Data da fabricacao {int}\\/{int}\\/{int}")
+	public void data_da_fabricacao(Integer int1, Integer int2, Integer int3) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Given("Capacidade do carro para {int}")
+	public void capacidade_do_carro_para(Integer int1) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Given("lado da direcao direta como No")
+	public void lado_da_direcao_direta_como_no() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Given("Numero de assentos como {int}")
+	public void numero_de_assentos_como(Integer int1) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Given("o tipo de combustive ? GAS")
+	public void o_tipo_de_combustive_gas() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Given("capacidade de carga {int}")
+	public void capacidade_de_carga(Integer int1) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Given("Peso total {int}")
+	public void peso_total(Integer int1) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Given("preco {double}")
+	public void preco(Double double1) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Given("License {int}")
+	public void license(Integer int1) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("Quando termino de Preenche o campo com {int} milhas")
+	public void quando_termino_de_preenche_o_campo_com_milhas(Integer int1) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("Clico em Next")
+	public void clico_em_next() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+
+}

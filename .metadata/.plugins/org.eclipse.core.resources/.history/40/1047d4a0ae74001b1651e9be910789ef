@@ -1,0 +1,6 @@
+Feature: Teste de funcionamento do Cucumber
+
+  Scenario: teste
+    Given teste
+    When Teste
+    Then testei

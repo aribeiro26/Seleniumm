@@ -1,0 +1,10 @@
+package br.alex.core;
+
+public class DriverManager {
+	
+	public static void main(String[] args) {
+		//System.setProperty('webdriver.chrome.driver", "C:\\driver\\chromedriver.exe");
+		Webdriver driver = new ChromeDriver();
+	}
+
+}
